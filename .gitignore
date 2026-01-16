@@ -1,9 +1,13 @@
+# IDE
 .vscode/
 .idea/
-__pycache__/
 
 # environment variables
 .flaskenv
 .flaskenv.*
 !.flaskenv.example
 !.flaskenv.template
+
+# python cache
+__pycache__/
+*.py[cod]
